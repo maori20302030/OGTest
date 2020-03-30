@@ -12,6 +12,11 @@
 		3CC1AEB424321CBF005D1388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC1AEB224321CBF005D1388 /* Main.storyboard */; };
 		3CC1AEB624321CC1005D1388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC1AEB524321CC1005D1388 /* Assets.xcassets */; };
 		3CC1AEB924321CC1005D1388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC1AEB724321CC1005D1388 /* LaunchScreen.storyboard */; };
+		3CC1AEC724321D3B005D1388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC1AEC624321D3B005D1388 /* AppDelegate.swift */; };
+		3CC1AEC924321D3B005D1388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC1AEC824321D3B005D1388 /* ViewController.swift */; };
+		3CC1AECC24321D3B005D1388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC1AECA24321D3B005D1388 /* Main.storyboard */; };
+		3CC1AED124321D3B005D1388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC1AECF24321D3B005D1388 /* LaunchScreen.storyboard */; };
+		3CC1AED724321DE3005D1388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC1AEB524321CC1005D1388 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,23 @@
 		3CC1AEB524321CC1005D1388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CC1AEB824321CC1005D1388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CC1AEBA24321CC1005D1388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CC1AEC424321D3B005D1388 /* OGTestAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OGTestAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC1AEC624321D3B005D1388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CC1AEC824321D3B005D1388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CC1AECB24321D3B005D1388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CC1AED024321D3B005D1388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CC1AED224321D3B005D1388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3CC1AEA824321CBF005D1388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC1AEC124321D3B005D1388 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +56,9 @@
 		3CC1AEA224321CBF005D1388 = {
 			isa = PBXGroup;
 			children = (
+				3CC1AED624321D8D005D1388 /* Shared */,
 				3CC1AEAD24321CBF005D1388 /* OGTest */,
+				3CC1AEC524321D3B005D1388 /* OGTestAdmin */,
 				3CC1AEAC24321CBF005D1388 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				3CC1AEAB24321CBF005D1388 /* OGTest.app */,
+				3CC1AEC424321D3B005D1388 /* OGTestAdmin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,11 +78,30 @@
 				3CC1AEAE24321CBF005D1388 /* AppDelegate.swift */,
 				3CC1AEB024321CBF005D1388 /* ViewController.swift */,
 				3CC1AEB224321CBF005D1388 /* Main.storyboard */,
-				3CC1AEB524321CC1005D1388 /* Assets.xcassets */,
 				3CC1AEB724321CC1005D1388 /* LaunchScreen.storyboard */,
 				3CC1AEBA24321CC1005D1388 /* Info.plist */,
 			);
 			path = OGTest;
+			sourceTree = "<group>";
+		};
+		3CC1AEC524321D3B005D1388 /* OGTestAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				3CC1AEC624321D3B005D1388 /* AppDelegate.swift */,
+				3CC1AEC824321D3B005D1388 /* ViewController.swift */,
+				3CC1AECA24321D3B005D1388 /* Main.storyboard */,
+				3CC1AECF24321D3B005D1388 /* LaunchScreen.storyboard */,
+				3CC1AED224321D3B005D1388 /* Info.plist */,
+			);
+			path = OGTestAdmin;
+			sourceTree = "<group>";
+		};
+		3CC1AED624321D8D005D1388 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3CC1AEB524321CC1005D1388 /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +124,23 @@
 			productReference = 3CC1AEAB24321CBF005D1388 /* OGTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3CC1AEC324321D3B005D1388 /* OGTestAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC1AED324321D3B005D1388 /* Build configuration list for PBXNativeTarget "OGTestAdmin" */;
+			buildPhases = (
+				3CC1AEC024321D3B005D1388 /* Sources */,
+				3CC1AEC124321D3B005D1388 /* Frameworks */,
+				3CC1AEC224321D3B005D1388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OGTestAdmin;
+			productName = OGTestAdmin;
+			productReference = 3CC1AEC424321D3B005D1388 /* OGTestAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +152,9 @@
 				ORGANIZATIONNAME = Maori;
 				TargetAttributes = {
 					3CC1AEAA24321CBF005D1388 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					3CC1AEC324321D3B005D1388 = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
@@ -113,6 +173,7 @@
 			projectRoot = "";
 			targets = (
 				3CC1AEAA24321CBF005D1388 /* OGTest */,
+				3CC1AEC324321D3B005D1388 /* OGTestAdmin */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +189,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3CC1AEC224321D3B005D1388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC1AED124321D3B005D1388 /* LaunchScreen.storyboard in Resources */,
+				3CC1AED724321DE3005D1388 /* Assets.xcassets in Resources */,
+				3CC1AECC24321D3B005D1388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +208,15 @@
 			files = (
 				3CC1AEB124321CBF005D1388 /* ViewController.swift in Sources */,
 				3CC1AEAF24321CBF005D1388 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC1AEC024321D3B005D1388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC1AEC924321D3B005D1388 /* ViewController.swift in Sources */,
+				3CC1AEC724321D3B005D1388 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +235,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3CC1AEB824321CC1005D1388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3CC1AECA24321D3B005D1388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CC1AECB24321D3B005D1388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CC1AECF24321D3B005D1388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CC1AED024321D3B005D1388 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -314,6 +410,42 @@
 			};
 			name = Release;
 		};
+		3CC1AED424321D3B005D1388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 744HX28NP9;
+				INFOPLIST_FILE = OGTestAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.OGTestAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CC1AED524321D3B005D1388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 744HX28NP9;
+				INFOPLIST_FILE = OGTestAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.OGTestAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +463,15 @@
 			buildConfigurations = (
 				3CC1AEBE24321CC1005D1388 /* Debug */,
 				3CC1AEBF24321CC1005D1388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC1AED324321D3B005D1388 /* Build configuration list for PBXNativeTarget "OGTestAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC1AED424321D3B005D1388 /* Debug */,
+				3CC1AED524321D3B005D1388 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
